@@ -3,14 +3,14 @@
 #include <signal.h>
 #include <unistd.h>
 
-
-void alarm_handler() {
+void alarm_handler()
+{
     puts("TIME OUT");
     exit(-1);
 }
 
-
-void initialize() {
+void initialize()
+{
     setvbuf(stdin, NULL, _IONBF, 0);
     setvbuf(stdout, NULL, _IONBF, 0);
 
@@ -18,7 +18,8 @@ void initialize() {
     alarm(30);
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     char buf[0x40] = {};
 
     initialize();
