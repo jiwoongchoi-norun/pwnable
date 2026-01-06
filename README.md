@@ -14,7 +14,6 @@
 ## How to Browse
 
 - 최종 풀이 확인: [main 브랜치](https://github.com/jiwoongchoi-norun/pwnable/tree/main)
-- 진행 중 분석 확인: [wip/08-basic-rop-x64 브랜치](https://github.com/jiwoongchoi-norun/pwnable/tree/wip/08-basic-rop-x64)
 
 > 💡 면접관님께: 브랜치를 클릭하면 **문제 해결 과정과 실패 시도, 개선 과정**까지 모두 확인하실 수 있습니다.
 
